@@ -65,7 +65,6 @@
         <li><a href="#about">About</a></li>
         <li><a href="#research">Research</a></li>
         <li><a href="#publications">Publications</a></li>
-        <li><a href="#projects">Projects</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="blog/">Blog</a></li>
@@ -111,24 +110,18 @@
       <h2>About</h2>
       <p>
         I am an AI engineer and researcher with a background in statistics and programming.
-        I recently completed an MSc in Mathematical Sciences, specialising in AI for Science,
-        at the African Institute for Mathematical Sciences (AIMS) South Africa in partnership
-        with Stellenbosch University, where I studied as a Google DeepMind Scholar and graduated
-        with distinction. My MSc research developed an unsupervised, peer-relative representation
-        learning approach for identifying energy-inefficient mobile network sites.
+        Before moving into research I spent several years building credit-scoring and
+        fraud-detection models on customer transaction data, and that shaped how I think about
+        the work: I like methods that are principled, but I also care whether they hold up once
+        they are deployed.
       </p>
       <p>
-        Before the MSc I spent several years in industry, first as a Data Analyst at Infotrace
-        Analytics and then as a Data Scientist at Onfon Mobile, where I built credit-scoring and
-        fraud-detection models on customer transaction data. That experience shaped how I think
-        about research: I like methods that are principled, but I also care whether they hold up
-        when deployed.
-      </p>
-      <p>
-        I am now back at Onfon Mobile as an AI Research Engineer. Alongside that work I am
-        exploring several areas of AI while building deeper expertise in the ones that interest
-        me most, particularly representation learning, trustworthy machine learning and language
-        technologies for African languages.
+        That question — whether something holds up — runs through most of what I do now. It
+        shows up in representation learning, where structure has to be earned from the data
+        rather than handed over in labels, and in trustworthy machine learning, where what
+        matters is whether a model knows when it is wrong. I am most interested in applying
+        both in scientific and educational settings, and in language technologies for African
+        languages.
       </p>
     </div>
   </section>
@@ -182,83 +175,10 @@
           </article>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- PUBLICATIONS -->
-  <section id="publications" class="section">
-    <div class="container narrow">
-      <h2>Publications &amp; research output</h2>
-
-      <ol class="pub-list">
-        <li>
-          <p class="pub-title">A Peer-Relative Representation Learning Framework for Energy Inefficiency Identification in Mobile Network Sites</p>
-          <p class="pub-authors"><strong>Eliud Nyakweba Koto</strong>, Jaco du Toit, Adham Stoltz, Johan du Preez</p>
-          <p class="pub-venue">arXiv preprint arXiv:2609.03809, September 2026</p>
-          <p class="links">
-            <a href="https://arxiv.org/abs/2609.03809" target="_blank" rel="noopener">arXiv</a>
-            <a href="https://github.com/eliud-koto/energy-aware-mde" target="_blank" rel="noopener">Code</a>
-          </p>
-        </li>
-
-        <li>
-          <p class="pub-title">Confidently Wrong: Measuring and Mitigating Calibration Risks in LLMs for African Languages</p>
-          <p class="pub-authors">Similoluwa Okunowo, <strong>Eliud Koto</strong>, Dagmawi Misker</p>
-          <p class="pub-venue">Preprint, 2026 · Global South AI Safety Hackathon (Apart Research &amp; Schmidt Sciences), Africa regional winner · Presented as a workshop talk and poster at Deep Learning Indaba 2026</p>
-          <p>
-            Evaluates calibration and overconfidence in four open-weight LLMs across
-            African-language benchmarks. Finds that models become systematically more
-            overconfident, and less well calibrated, when moving from English to African
-            languages, and evaluates per-language temperature scaling as a cheap,
-            deployment-time mitigation that needs no retraining.
-          </p>
-          <p class="links">
-            <a href="assets/Confidently_Wrong_Calibration_African_Languages.pdf" target="_blank" rel="noopener">PDF</a>
-            <a href="https://apartresearch.com/project/confidently-wrong-measuring-and-mitigating-calibration-risks-in-llms-for-african-languages-hrve" target="_blank" rel="noopener">Project page</a>
-          </p>
-        </li>
-      </ol>
-
-      <p class="note">
-        A full list is on <a href="https://scholar.google.com/citations?user=v_cgbv4AAAAJ" target="_blank" rel="noopener">Google Scholar</a>.
-      </p>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section id="projects" class="section section-alt">
-    <div class="container">
-      <h2>Projects</h2>
+      <h3 class="subhead" id="projects">Other projects</h3>
 
       <div class="grid">
-        <article class="card">
-          <h3>Energy-aware MDE</h3>
-          <p>
-            Code for the MSc project: an energy-aware Minimum Distortion Embedding pipeline for
-            peer-relative anomaly scoring of mobile network sites, with synthetic data generation
-            and a contamination sweep for robustness evaluation.
-          </p>
-          <p class="tags"><span>Python</span><span>PyMDE</span><span>Graph embeddings</span><span>Anomaly detection</span></p>
-          <p class="links">
-            <a href="https://github.com/eliud-koto/energy-aware-mde" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://arxiv.org/abs/2609.03809" target="_blank" rel="noopener">Paper</a>
-          </p>
-        </article>
-
-        <article class="card">
-          <h3>Confidently Wrong: LLM calibration in African languages</h3>
-          <p>
-            Measured calibration and overconfidence of open-weight LLMs across African-language
-            benchmarks and tested per-language temperature scaling as a mitigation. Built during
-            the Global South AI Safety Hackathon 2026.
-          </p>
-          <p class="tags"><span>LLM evaluation</span><span>Calibration</span><span>AI safety</span><span>African NLP</span></p>
-          <p class="links">
-            <a href="assets/Confidently_Wrong_Calibration_African_Languages.pdf" target="_blank" rel="noopener">Paper</a>
-            <a href="https://apartresearch.com/project/confidently-wrong-measuring-and-mitigating-calibration-risks-in-llms-for-african-languages-hrve" target="_blank" rel="noopener">Project page</a>
-          </p>
-        </article>
-
         <article class="card">
           <h3>Human-in-the-loop student performance prediction</h3>
           <p>
@@ -316,8 +236,46 @@
     </div>
   </section>
 
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="section">
+    <div class="container narrow">
+      <h2>Publications &amp; research output</h2>
+
+      <ol class="pub-list">
+        <li>
+          <p class="pub-title">A Peer-Relative Representation Learning Framework for Energy Inefficiency Identification in Mobile Network Sites</p>
+          <p class="pub-authors"><strong>Eliud Nyakweba Koto</strong>, Jaco du Toit, Adham Stoltz, Johan du Preez</p>
+          <p class="pub-venue">arXiv preprint arXiv:2609.03809, September 2026</p>
+          <p class="links">
+            <a href="https://arxiv.org/abs/2609.03809" target="_blank" rel="noopener">arXiv</a>
+            <a href="https://github.com/eliud-koto/energy-aware-mde" target="_blank" rel="noopener">Code</a>
+          </p>
+        </li>
+
+        <li>
+          <p class="pub-title">Confidently Wrong: Measuring and Mitigating Calibration Risks in LLMs for African Languages</p>
+          <p class="pub-authors">Similoluwa Okunowo, <strong>Eliud Koto</strong>, Dagmawi Misker</p>
+          <p class="pub-venue">Preprint, 2026 · Global South AI Safety Hackathon · Presented as a workshop talk and poster at Deep Learning Indaba 2026</p>
+          <p>
+            Four open-weight LLMs become systematically more overconfident, and less well
+            calibrated, as they move from English to African languages. Per-language
+            temperature scaling turns out to be a cheap mitigation that needs no retraining.
+          </p>
+          <p class="links">
+            <a href="assets/Confidently_Wrong_Calibration_African_Languages.pdf" target="_blank" rel="noopener">PDF</a>
+            <a href="https://apartresearch.com/project/confidently-wrong-measuring-and-mitigating-calibration-risks-in-llms-for-african-languages-hrve" target="_blank" rel="noopener">Project page</a>
+          </p>
+        </li>
+      </ol>
+
+      <p class="note">
+        A full list is on <a href="https://scholar.google.com/citations?user=v_cgbv4AAAAJ" target="_blank" rel="noopener">Google Scholar</a>.
+      </p>
+    </div>
+  </section>
+
   <!-- EXPERIENCE -->
-  <section id="experience" class="section">
+  <section id="experience" class="section section-alt">
     <div class="container narrow">
       <h2>Experience</h2>
 
@@ -361,7 +319,7 @@
   </section>
 
   <!-- EDUCATION -->
-  <section id="education" class="section section-alt">
+  <section id="education" class="section">
     <div class="container narrow">
       <h2>Education</h2>
 
@@ -388,21 +346,8 @@
 
       <h3 class="subhead">Awards</h3>
       <ul class="plain-list">
-        <li>Google DeepMind Scholar, African Institute for Mathematical Sciences (2025–2026).</li>
         <li>Africa Regional Winner, Global South AI Safety Hackathon (2026), organised by Apart Research and Schmidt Sciences.</li>
       </ul>
-    </div>
-  </section>
-
-  <!-- CV -->
-  <section id="cv" class="section">
-    <div class="container narrow">
-      <h2>Curriculum vitae</h2>
-      <p>My CV is available as a PDF. The version here is from September 2026.</p>
-      <div class="actions">
-        <a class="btn btn-primary" href="assets/Eliud_Koto_CV.pdf" target="_blank" rel="noopener">View CV</a>
-        <a class="btn" href="assets/Eliud_Koto_CV.pdf" download="Eliud_Koto_CV.pdf">Download CV</a>
-      </div>
     </div>
   </section>
 
@@ -437,8 +382,7 @@
     <div class="container narrow">
       <h2>Contact</h2>
       <p>
-        I am happy to hear about research positions, graduate programmes and collaborations,
-        particularly in AI for Science, AI for Education and trustworthy machine learning.
+        I am happy to hear about research positions, graduate programmes and collaborations.
         The best way to reach me is by email.
       </p>
       <ul class="contact-list">
