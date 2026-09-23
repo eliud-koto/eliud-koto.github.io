@@ -10,6 +10,7 @@ Plain HTML, CSS and a few lines of JavaScript. No build step, no framework.
 ```
 index.html            single-page site (all sections)
 blog/index.html       the blog index: standing note + list of posts
+                      (the only place posts are listed)
 blog/_template.html   post template (not linked; copy it to start a post)
 css/style.css         styles
 js/main.js            mobile navigation toggle, footer year
@@ -41,14 +42,12 @@ as it is there. To update later, replace the file (keep the name) and push again
 </li>
 ```
 
-4. Mirror the newest two entries in the Blog section of `index.html`, and
-   remove the `post-list-empty` placeholder from both lists once real posts exist.
 
 ## Editing content
 
 All content lives in `index.html`. Each section has an `id` that matches the
 navigation (`#about`, `#research`, `#publications`, `#projects`, `#experience`,
-`#education`, `#cv`, `#blog`, `#contact`).
+`#education`, `#contact`).
 
 ## Local preview
 
