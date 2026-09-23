@@ -9,11 +9,12 @@ Plain HTML, CSS and a few lines of JavaScript. No build step, no framework.
 
 ```
 index.html            single-page site (all sections)
-writing/index.html    the writing index: standing note + list of posts
-writing/_template.html  post template (not linked; copy it to start a post)
+blog/index.html       the blog index: standing note + list of posts
+blog/_template.html   post template (not linked; copy it to start a post)
 css/style.css         styles
 js/main.js            mobile navigation toggle, footer year
 assets/Eliud_Koto_CV.pdf   the CV linked from the site
+assets/blog/          images used in posts
 assets/favicon.svg
 .nojekyll             tells GitHub Pages to serve files as-is
 ```
@@ -27,10 +28,10 @@ as it is there. To update later, replace the file (keep the name) and push again
 
 ## Adding a post
 
-1. Copy `writing/_template.html` to `writing/<slug>.html`.
+1. Copy `blog/_template.html` to `blog/<slug>.html`.
 2. Replace the placeholders: `<title>`, description, canonical URL, `<h1>`,
    the `<time>` element, and the body. Delete the template notice.
-3. Add an entry to the `.post-list` in `writing/index.html`, newest first:
+3. Add an entry to the `.post-list` in `blog/index.html`, newest first:
 
 ```html
 <li>
@@ -40,14 +41,14 @@ as it is there. To update later, replace the file (keep the name) and push again
 </li>
 ```
 
-4. Mirror the newest two entries in the Writing section of `index.html`, and
+4. Mirror the newest two entries in the Blog section of `index.html`, and
    remove the `post-list-empty` placeholder from both lists once real posts exist.
 
 ## Editing content
 
 All content lives in `index.html`. Each section has an `id` that matches the
 navigation (`#about`, `#research`, `#publications`, `#projects`, `#experience`,
-`#education`, `#cv`, `#contact`).
+`#education`, `#cv`, `#blog`, `#contact`).
 
 ## Local preview
 
